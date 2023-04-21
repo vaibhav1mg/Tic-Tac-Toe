@@ -20,20 +20,21 @@ body {
 }
 
 .background:nth-child(1) {
-    width: 15vw;
-    height: 15vw;
-    left: 15vw;
-    top: 0;
+    width: 40vw;
+    height: 40vw;
+    left: -7vw;
+    top: -7vw;
+    
     background: linear-gradient(180deg, #DA896B 0%, #3EAB9B 100%);
     box-shadow: 0px 4px 236px rgba(62, 171, 155, 0.73);
     transform: rotate(48.34deg);
 }
 
 .background:nth-child(2) {
-    width: 25vw;
-    height: 25vw;
-    left: 30vw;
-    top: 60vh;
+    width: 50vw;
+    height: 50vw;
+    left: 3vw;
+    top: 70vh;
     background: linear-gradient(180deg, #DA896B 0%, #3EAB9B 100%);
     box-shadow: 0px 4px 236px rgba(62, 171, 155, 0.73);
     transform: rotate(48.34deg);
@@ -42,8 +43,8 @@ body {
 .background:nth-child(3) {
     width: 40vw;
     height: 40vw;
-    right: 0;
-    top: -25vh;
+    top : 14vw;
+    right: -10vw;
     background: linear-gradient(180deg, #DA896B 0%, #3EAB9B 100%);
     box-shadow: 0px 4px 236px rgba(62, 171, 155, 0.73);
     transform: rotate(48.34deg);
@@ -83,6 +84,7 @@ button {
     border-radius: 25px;
     box-shadow: 0px 4px 236px rgba(62, 171, 155, 0.73);
     transition-duration: 0.4s;
+
 }
 
 button:hover {
