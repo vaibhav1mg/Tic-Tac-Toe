@@ -45,13 +45,16 @@ body {
 }
 
 .background:nth-child(3) {
-    width: 60vw;
-    height: 60vw;
-    top : 40vw;
-    right: -10vw;
+    width: 49vw;
+    height: 49vw;
+    top : 50vw;
+    right: 10vw;
+   
+    
     background: linear-gradient(180deg, #DA896B 0%, #3EAB9B 100%);
     box-shadow: 0px 4px 236px rgba(62, 171, 155, 0.73);
     transform: rotate(48.34deg);
+    
 }
 
 
