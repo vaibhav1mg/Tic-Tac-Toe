@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <script async src="script.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/5395e4548b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>Flexi Tic Tac Toe ⭕️❌</header>
+    <main>
+      <div class="playerOne">
+        <div class="playerEmoji">😎</div>
+        <div id="PlayerOneName"></div>
+      </div>
+      <div>
+        <div id="grid"></div>
+        <div class="btnGroup">
+          <input type="submit" id="newGameBtn" class="btn" value="New Game" />
+          <input type="submit" id="resetBtn2" class="btn" value="Reset" />
+        </div>
+      </div>
+      <div class="playerTwo">
+        <div class="playerEmoji">🥺</div>
+        <div id="PlayerTwoName"></div>
+      </div>
+    </main>
+    <div class="modal" id="gameResult">
+      <div id="result"></div>
+      <div>Do you wanna play again?</div>
+      <button class="btn" id="resetBtn" type="submit">Play again</button>
+    </div>
+
+    <div class="modal" id="newGame_modal">
+      <input type="text" id="playerName1" placeholder="Player 1" />
+      <input type="text" id="playerName2" placeholder="Player 2" />
+      <label for="sliderSize">Select game size</label>
+      <div class="slidecontainer">
+        <input
+          type="range"
+          min="3"
+          max="6"
+          class="slider"
+          id="sliderSize"
+          list="values"
+        />
+        <datalist id="values">
+          <option value="3" label="3"></option>
+          <option value="4" label="4"></option>
+          <option value="5" label="5"></option>
+          <option value="6" label="6"></option>
+        </datalist>
+        <!-- <div id="rangeValue"></div> -->
+      </div>
+      <button class="btn" id="startBtn" type="submit">Lets go!!</button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <footer>
+      <p>Made by Vaibhav Meena</p>
+      <a href="https://github.com/Frostbite-ai/Tic-Tac-Toe" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub Repository
+      </a>
+    </footer>
+  </body>
+</html>
